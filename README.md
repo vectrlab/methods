@@ -1,5 +1,10 @@
-[![Build Status](https://travis-ci.com/rstudio/bookdown-demo.svg?branch=master)](https://travis-ci.com/rstudio/bookdown-demo)
+# About this Book
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+This proto-textbook evolved from a collection of handouts used in my research methods course until 2020. I am making this available for former students who want to refer to these handouts but no longer have their original copies.
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+This book uses SPSS. I am preparing updated materials with more polished text and incorporating the use of R. 
+As this book will not be updated further, I only recommend it to my former students who used it in their course.
+
+# License
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
