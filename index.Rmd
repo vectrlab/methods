@@ -375,9 +375,9 @@ The most common study variations that may affect study results can be remembered
 
 All threats to statistical conclusion validity increase the odds of being wrong in your statistical conclusion. You may remember that these have names: Type I and Type II error. Put another way, a threat to statistical conclusion validity increases the chance of either a Type I or Type II error.
 
-Low statistical power (sample size is too low, or the treatment is weak) can increase the chance of a Type I error; you might not be able to reject the null hypothesis when you otherwise should.
+Low statistical power (sample size is too low, or the treatment is weak) can increase the chance of a Type II error; you might not be able to reject the null hypothesis when you otherwise should.
 
-Fishing is running analyses over and over again until you find one that is significant, then ignoring all the non-significant results and just reporting the significant one. Fishing greatly increases the chance of a Type II error; if you do statistics this way, you’ll probably get significant findings that are spurious.
+Fishing is running analyses over and over again until you find one that is significant, then ignoring all the non-significant results and just reporting the significant one. Fishing greatly increases the chance of a Type I error; if you do statistics this way, you’ll probably get significant findings that are spurious.
 
 ### Scientific Publishing
 
@@ -809,3 +809,61 @@ In all, this means that p-values are affected by both sample size and effect siz
 And, the larger the effect size, the more evidence there is of a relationship. If college students report extremely high levels of stress on average, that provides more evidence that they are experiencing stress than if the survey showed small levels of stress.
 
 As you read Chapter 10 in the text, think about how sample size and effect size are used in probabilistic reasoning. When we reject the null hypothesis, we conclude an effect exists. But, we are never 100% confident that we are right. We are using the data to make a conclusion, but all conclusions are probabilistic. If we’re right with our statistical conclusions, then we can say we have statistical conclusion validity. But in the real world of doing research, we have no guarantees we are correct (otherwise, we wouldn’t need to do the research!). Our best tool is always to collect more evidence and integrate all past studies to form a better prediction of the phenomena that we study.
+
+
+# Quasi-Experiments
+
+
+In this section, we focus on **quasi-experiments**, which are studies that have one or more manipulated independent variables (IVs) but no random assignment.
+
+## Reviewing Causality
+
+We previously discussed three requirements to demonstrate causality, according to Mill:
+
+1. It needs to be clear that the cause comes before the effect
+2. We need to show a relationship (such as a correlation) between the cause and effect
+3. There should be no other plausable explanations for the effect besides the cause
+
+The first requirement of causality, also called **temporal precedence**, benefits from an experiment but does not always require an experiment. Sometimes, temporal precedence is clear. For example, a person's age only makes sense as a causal variable and not an outcome variable (unless the IV is time). Nothing will cause a person's age to increase except for the passage of time. If age is the IV in a study, it cannot be manipulated, but there is no question that it cannot act as the effect (outcome) in a cause-effect relationship.
+
+Other times, temporal precedence is not clear. For example, imagine a study in which we offer some students a basketball camp and also measure their self-esteem. If we observed higher self-esteem in students who participated in the camp versus students who did not, we might conclude that the camp raised participants' self-esteem. Could the reverse be true? That is, could students with higher self-esteem been more likely to participate in the basketball camp? In this example, it depends on the method of assignment to the groups. Using an experiment, which includes random assignment, this explanation could be ruled out. But if we used another method of assignment, like providing the camp to athletes, then we have a weaker case for saying the camp is the cause and self-esteem is the effect.
+
+The second requirement of causality, **covariation**, can be easily demonstrated using null hypothesis significance testing (NHST). Being able to demonstrate covariation depends on collecting reliable variables with good construct validity and having a sufficient sample size to ensure **statistical power**. Statistical power is the ability to reject the null hypothesis when an effect exists. This requirement can be satisfied in quasi-experimental and non-experimental designs.
+
+The third requirement is to rule out other plausable explanations, which we call **confounding variables** or the **third variable problem**. This requirement benefits the most from experiments. This requirement is especially challenging for quasi- and non-experiments.
+
+When finding yourself in a situation where an experiment is ethical and possible, then including a manipulation and random assignment greatly increase the causal explanation power of the research. That said, many variables cannot or should not be manipulated. In the next section, we discuss some of the ways to describe causal effects using quasi-experiments.
+
+## What to do when you cannot run an experiment
+
+Quasi-experiments differ from experiments the most in how they handle the third variable problem. In an experiment, random assignment is used to equate groups on all other third variables. Any variable that could affect the dependent variable (DV) will have an equal chance of appearing in each group. On average, or over time, this will lead to equivalent groups.
+
+Quasi-experiments cannot rely on random assignment, leaving them vulnerable to third variable critiques. To address this, researchers doing quasi-experimental research need to do three things (from Shadish, Cook, & Campbell, 2002):
+
+1. They need to brainstorm and list potential third variables. A third variable is a concern only when it is related to both the independent variable (IV) and the DV. For example, in a study where participants are asked to read a textbook and then answer questions under stress, reading ability is a potential third variable.
+
+2. The list of potential third variables needs to be ranked based on how big of an impact the confounding variable will have. In the current example, reading ability would probably have a big impact on one's ability to read and comprehend a textbook. The lighting in the room, as another example, could have an impact. However, small changes in the amount of lighting or color temperature of the lighting would probably have a small impact, if any. Ranking potential third variables helps researchers decide how much effort to invest to ruling them out.
+
+3. Third, researchers need to **control for confounding variables**. They do this through two mechanisms: *design of the study* and *statistical control*. Changing the design of the study is the best way. One way to control for reading ability might be to give all participants a reading comprehension test before the study and include them only if they are able to meet a baseline for reading in the language of the study. The lighting could be controlled, as well, by ensuring that the same bulbs are used in every data collection session.
+
+The second way to control for a confounding variable is statistical control. Statistical control means adjusting scores on measured variables to adjust for another variable. This works similarly to a golf or bowling handicap. Control through study design preferable to statistical control. This is because statistical controls are not very powerful.
+
+Finally, it is worth mentioning that experimental researchers might need to control for confounding variables, as well. 
+
+4. Fourth, researchers can rule out alternative explanations by observing more complex patterns of cause and effect. By collecting more observations that fit an expected pattern, it can be harder to come up with alternative explanations that fit the data. This concept might be easist to understand by considering some techniques:
+
+- Pretest-Posttest design: Measure the DV before and after an intervention, which gives a baseline score
+
+- Using multiple pretests: If participants are unchanged across many pretests but then show a change in the posttest, it gives stronger evidence that the intervention had an effect.
+
+- Adding a treatment then removing it: If scores go back to their pretest levels after a treatment (manipulation) is removed, it adds evidence that the treatment had an effect.
+
+- Combining a pretest-posttest design with a between-subjects IV: This will reveal changes over time in a treatment group comapred to a group that did not receive the treatment.
+
+- Matching: Pair up participants that have similar scores at pretest, then ensure they end up in different groups.
+
+These methods can be combined or extended. For example, multiple posttests can be added to a study with multiple pretests to give a clearer picture of how effects change over time.
+
+## Conclusion
+
+In this section, we have seen how random assignment makes causal conclusions easier. When an experiment is not ethical or possible, then quasi-experiments can be used to demonstrate casuality. However, they are susceptible to the third variable problem, so they require more consideration of potential third variables. There are a number of strategies that researchers can use to address third variables, but this process is imperfect and can be challenging to implement. As consumers of research, we should think critically about causal claims made from quasi- and non-experiments. Better yet, we should think critically about all claims made from research! Learning about research methods and how studies are desgined can make it easier to do that.
