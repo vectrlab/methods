@@ -782,7 +782,7 @@ Effect size is the same thing as the strength of the correlation. A strong corre
 
 ## Interpretation of $r$ (Cohen, 1988; Note: This is not $r^2$) {#interpr}
 
-These are reference points, not firm cutoffs. For example, .056 is a medium effect size.
+These are reference points, not firm cutoffs. For example, .28 is a medium effect size.
 
 --------------------------------------
 Effect Size           Interpretation
@@ -808,7 +808,7 @@ In all, this means that p-values are affected by both sample size and effect siz
 
 And, the larger the effect size, the more evidence there is of a relationship. If college students report extremely high levels of stress on average, that provides more evidence that they are experiencing stress than if the survey showed small levels of stress.
 
-As you read Chapter 10 in the text, think about how sample size and effect size are used in probabilistic reasoning. When we reject the null hypothesis, we conclude an effect exists. But, we are never 100% confident that we are right. We are using the data to make a conclusion, but all conclusions are probabilistic. If we’re right with our statistical conclusions, then we can say we have statistical conclusion validity. But in the real world of doing research, we have no guarantees we are correct (otherwise, we wouldn’t need to do the research!). Our best tool is always to collect more evidence and integrate all past studies to form a better prediction of the phenomena that we study.
+As you read Chapter 10 in the text, think about how sample size and effect size are used in probabilistic reasoning. When we reject the null hypothesis, we conclude an effect exists. But, we are never 100% confident that we are right. We are using the data to make a conclusion, but all conclusions are probabilistic. If we’re right with our statistical conclusions, then we can say we have statistical conclusion validity. But in the real world of doing research, we have no guarantees we are correct (otherwise, we wouldn’t need to do the research!). Our best tool is always to collect more evidence and integrate all past studies to form a better understanding of the phenomena that we study.
 
 
 # Quasi-Experiments
